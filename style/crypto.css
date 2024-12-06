@@ -51,7 +51,7 @@ h1 {
 }
 
 #coinList li {
-    background-color: #fff;
+    background-color: #f4f4f9;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -61,6 +61,15 @@ h1 {
 
 #coinList li:hover {
     transform: translateY(-5px);
+}
+
+
+.background {
+    background-color: #f4f4f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
 }
 
 #coinDetails {
