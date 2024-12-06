@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Explorer</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Trending Cryptocurrencies</h1>
+    <ul id="coinList"></ul>
+    <p id="error" style="color: red;"></p>
+
+    <div id="coinDetails" style="display: none;">
+        <h2>Coin Details</h2>
+        <p id="coinName"></p>
+        <p id="coinSymbol"></p>
+        <p id="coinMarketCapRank"></p>
+        <p id="coinPrice"></p>
+        <p id="coinPriceChange"></p>
+        <p id="coinHistory"></p>
+        <button onclick="hideDetails()">Close</button>
+    </div>
+</body>
+</html>

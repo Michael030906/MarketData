@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Explorer</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Stock Market Explorer</h1>
+    <label for="stockSymbol">Enter Stock Symbol:</label>
+    <input type="text" id="stockSymbol" placeholder="e.g., AAPL">
+    <button onclick="fetchStockData()">Get Data</button>
+    <p id="error" style="color: red;"></p>
+
+    <div id="stockDetails" style="display: none;">
+        <h2>Stock Details</h2>
+        <p id="stockDate"></p>
+        <p id="stockOpen"></p>
+        <p id="stockHigh"></p>
+        <p id="stockLow"></p>
+        <p id="stockClose"></p>
+        <p id="stockVolume"></p>
+        <button onclick="hideDetails()">Close</button>
+    </div>
+</body>
+</html>
