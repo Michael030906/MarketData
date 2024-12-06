@@ -54,7 +54,7 @@ async function fetchStockData() {
     if (!symbolInput) return; // Ensure this is the stock page
 
     const symbol = symbolInput.value.trim().toUpperCase();
-    const apiKey = "6KO52UAK2BUSE050";
+    const apiKey = "KRE43IKY4V811JNA";
     const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_MONTHLY&symbol=${symbol}&apikey=${apiKey}`;
 
     if (!symbol) {

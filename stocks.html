@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stock Market Explorer</title>
-    <script src="main.js" defer></script>
+    <script src="action/main.js" defer></script>
+    <link rel="stylesheet" href="/style/stocks.css">
+    <link rel="stylesheet" href="/style/header.css">
+  
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="stocks.html">Stocks</a>
+        <a href="crypto.html">Crypto</a>
+    </nav>
     <h1>Stock Market Explorer</h1>
     <label for="stockSymbol">Enter Stock Symbol:</label>
     <input type="text" id="stockSymbol" placeholder="e.g., AAPL">
@@ -22,6 +30,7 @@
         <p id="stockClose"></p>
         <p id="stockVolume"></p>
         <button onclick="hideDetails()">Close</button>
+        
     </div>
 </body>
 </html>

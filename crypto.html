@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cryptocurrency Explorer</title>
-    <script src="main.js" defer></script>
+    <script src="action/main.js" defer></script>
+    <link rel="stylesheet" href="style/crypto.css">
+    <link rel="stylesheet" href="style/header.css">
+    
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="stocks.html">Stocks</a>
+        <a href="crypto.html">Crypto</a>
+    </nav>
     <h1>Trending Cryptocurrencies</h1>
     <ul id="coinList"></ul>
     <p id="error" style="color: red;"></p>
@@ -20,6 +28,7 @@
         <p id="coinPriceChange"></p>
         <p id="coinHistory"></p>
         <button onclick="hideDetails()">Close</button>
+        
     </div>
 </body>
 </html>

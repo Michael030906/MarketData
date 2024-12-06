@@ -3,42 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Navigation</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            margin-bottom: 30px;
-        }
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .nav-links a {
-            display: inline-block;
-            padding: 15px 30px;
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            border-radius: 5px;
-            font-size: 18px;
-            transition: background-color 0.3s ease;
-        }
-        .nav-links a:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>Stock/Crypto</title>
+    <script src="action/main.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/stocks.css">
+    <script src="action/indexEXAMPLE.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
 </head>
 <body>
-    <h1>Welcome to the Website</h1>
-    <p>Select where you'd like to go:</p>
+    <div class="container">
+    <h1>Crypto  <span class="black">or</span> <span class="stockTXT">Stocks</span></h1>
+    <p>Choose your Fate:</p>
     <div class="nav-links">
         <a href="crypto.html">Explore Cryptocurrencies</a>
         <a href="stocks.html">Explore Stocks</a>
+    </div>
     </div>
 </body>
 </html>
