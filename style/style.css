@@ -76,3 +76,25 @@ p {
 .black {
     color: Black;
 }
+
+.chart-container {
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    text-align: center;
+}
+
+.chart-container h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+.aapl {
+    margin-top: 40px;
+    font-size: 18px;
+    color: #6200ea;
+}
